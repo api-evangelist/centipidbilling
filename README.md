@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Centipid Technologies is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://centipidbilling.com/
+Centipid Technologies provides a comprehensive ISP billing and OSS/BSS platform that enables broadband providers to manage subscriber records, billing, payments, and network access. The solution integrates PPPoE, Hotspot, RADIUS, and various router platforms, offering features such as automated invoicing, payment reconciliation, captive‑portal promotions, lead management, and AI‑assisted staff tools. It supports multi‑country tax compliance, extensive reporting, and flexible deployment options for ISPs seeking to streamline operations and improve customer experience.
+
+**Areas:** Company · ISP · Billing · OSS BSS · Telecommunications
+
+## Centipid Technologies on APIs.io
+
+Everything profiled for Centipid Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/centipidbilling/](https://apis.io/providers/centipidbilling/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Centipid Billing API](https://apis.io/apis/centipidbilling/centipid-billing-api/) — API for Centipid Technologies ISP billing platform, as documented in the developer reference.
+- [Centipid Technologies Async API](https://apis.io/apis/centipidbilling/centipidbilling-async-api/) — The Async API from Centipid Technologies — 2 operation(s) for async.
+- [Centipid Technologies Collections API](https://apis.io/apis/centipidbilling/centipidbilling-collections-api/) — The Collections API from Centipid Technologies — 2 operation(s) for collections.
+- [Centipid Technologies Interface API](https://apis.io/apis/centipidbilling/centipidbilling-interface-api/) — The Interface API from Centipid Technologies — 1 operation(s) for interface.
+- [Centipid Technologies MCP API](https://apis.io/apis/centipidbilling/centipidbilling-mcp-api/) — The Mcp API from Centipid Technologies — 1 operation(s) for mcp.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [GetApiV2AsyncPaymentsOrderidResponse](https://apis.io/schemas/centipidbilling/centipidbilling-get-api-v2-async-payments-orderid-response/)
+- [PostApiV2AsyncPaymentsRequest](https://apis.io/schemas/centipidbilling/centipidbilling-post-api-v2-async-payments-request/)
+- [PostApiV2AsyncPaymentsResponse](https://apis.io/schemas/centipidbilling/centipidbilling-post-api-v2-async-payments-response/)
+- [PostMcpRequest](https://apis.io/schemas/centipidbilling/centipidbilling-post-mcp-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Centipidbilling Context](https://apis.io/jsonld/centipidbilling/centipidbilling-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Centipid Technologies API Rules](https://apis.io/rules/centipidbilling/centipidbilling-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Centipidbilling Domain Security](https://apis.io/security/centipidbilling/centipidbilling-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Centipidbilling Plans Pricing](https://apis.io/plans/centipidbilling/centipidbilling-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://centipidbilling.com/)
+- [Documentation](https://docs.centipidbilling.com/)
+- [Getting started](https://docs.centipidbilling.com/quickstart)
+- [API reference](https://docs.centipidbilling.com/reference/support)
+- [Pricing](https://centipidbilling.com/pricing)
+- [Support](https://centipidbilling.com/contact)
+- [Changelog](https://centipidbilling.com/changelog)
+- [Blog](https://centipidbilling.com/blog)
+- [Trust centre](https://trust.centipidbilling.com/login)
+- [Terms of service](https://centipidbilling.com/terms)
+- [Privacy policy](https://centipidbilling.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 44.2** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 21.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 84.2 |
+
+**Agent readiness 32.7** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 25.0** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/centipidbilling/](https://apis.io/providers/centipidbilling/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Centipid Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/centipidbilling/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
